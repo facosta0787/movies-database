@@ -6,8 +6,8 @@
   "scripts": {
     "start": "",
     "dev": "",
-    "scrape": "NODE_ENV=production node src/scrape.js",
-    "scrape:dev": "NODE_ENV=development nodemon --ignore movies.json src/scrape.js",
+    "scrape": "cross-env NODE_ENV=production node src/scrape.js",
+    "scrape:dev": "cross-env NODE_ENV=development nodemon --ignore movies.json src/scrape.js",
     "lint": "eslint --fix .",
     "precommit": "lint-staged"
   },
@@ -30,6 +30,7 @@
     "uuid": "^3.3.3"
   },
   "devDependencies": {
+    "cross-env": "^6.0.0",
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-node": "^4.0.0",
