@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node index",
+    "dev": "NODE_ENV=development nodemon --ignore movies.json index"
   },
   "keywords": [
     "scraping",
@@ -14,5 +15,14 @@
     "cheerio"
   ],
   "author": "@facosta0787",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "lowdb": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
