@@ -29,7 +29,7 @@ function database() {
   return { db, exists }
 }
 
-async function scrapPage(page = 1) {
+async function scrapPage(page) {
   try {
     const { db, exists } = database()
 

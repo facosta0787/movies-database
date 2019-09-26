@@ -406,6 +406,406 @@
       "year": "2018",
       "genres": ["Drama"],
       "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/oucoXiLsc07YryywgjddmU3YoDV-185x278.jpg"
+    },
+    {
+      "id": "1e5e816c-fc06-47e8-847e-d622d4dd84df",
+      "title": "Café Society",
+      "synopsis": "Los Ángeles, años 30. En la meca del cine, el joven recién llegado Bobby Dorfman (Jesse Eisenberg), sobrino de un poderoso agente y productor de ...",
+      "year": "2016",
+      "genres": ["Comedia", "Drama", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/v6OKb5MoibDhr80xkbc7CsJa7oH-185x278.jpg"
+    },
+    {
+      "id": "ca809107-ee3c-4d20-8488-4b56ee9618d0",
+      "title": "La importancia de llamarse Oscar Wilde",
+      "synopsis": "Biopic centrado en los últimos tres años del gran poeta Oscar Wilde (1897–1900). Wilde (Rupert Everett), recluido en un hotel de Francia con sus ...",
+      "year": "2018",
+      "genres": ["Comedia", "Drama", "Historia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/6jLkkZO4zryBTcCwkVGliQ3h5TU-185x278.jpg"
+    },
+    {
+      "id": "08f78364-cf2e-4cb8-bc55-b8cf6ba88a8a",
+      "title": "High Flying Bird",
+      "synopsis": "Dean (André Holland) es un agente deportivo que, durante un cierre patronal, ve la oportunidad de hacer negocio con una joven promesa del ...",
+      "year": "2019",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/ccE21xixa1zhkGtWDr4n8ReOp40-185x278.jpg"
+    },
+    {
+      "id": "ceae07c4-21fd-4e97-9c78-cb7179e430e0",
+      "title": "Secretas intenciones",
+      "synopsis": "Cuando Fay vuelve al trabajo tras su baja de maternidad, ella y su marido deciden contratar a Jen, una joven niñera que se instala en su casa. ...",
+      "year": "2016",
+      "genres": ["Drama", "Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/1B15Wh7edFgMtBP4gMyJbfkye8L-185x278.jpg"
+    },
+    {
+      "id": "bf9fa054-e1ac-4be9-8c3f-1b3f1b403053",
+      "title": "El árbol de la sangre",
+      "synopsis": "Marc (Álvaro Cervantes) y Rebeca (Úrsula Corberó) son una joven pareja que viaja hasta un antiguo caserío vasco que perteneció a su familia. Allí ...",
+      "year": "2018",
+      "genres": ["Drama", "Misterio"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/hiS06OYHEokGx1cw8ZNRsrhoUw-185x278.jpg"
+    },
+    {
+      "id": "cf869ead-ea15-48ba-b1dd-c6638e693178",
+      "title": "El candidato",
+      "synopsis": "Narra la campaña presidencial del senador estadounidense Gary Hart, que tuvo lugar en 1988, momento en el que los medios de comunicación ...",
+      "year": "2018",
+      "genres": ["Drama", "Historia", "Misterio"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/2sTxZVUMvKLtIzjbhP0vtn2aVsi-185x278.jpg"
+    },
+    {
+      "id": "184bde4c-d772-47d9-af4c-222c98b8e571",
+      "title": "Yo mato a los gigantes",
+      "synopsis": "Barbara Thorson, una adolescente problemática con orejas de conejo que escapa de las difíciles realidades de su vida al retirarse a un mundo ...",
+      "year": "2018",
+      "genres": ["Drama", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/hrDbPQkEwkv7NQNpJ9UfwSZ1nC8-185x278.jpg"
+    },
+    {
+      "id": "8d5116dd-9278-42d3-9170-388fc472165d",
+      "title": "Dumplin’",
+      "synopsis": "Una chica muy segura de sí misma a la que todo el mundo llama “Dumplin” (Danielle Macdonald) comienza a trabajar en una cadena de ...",
+      "year": "2018",
+      "genres": ["Comedia", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/xJAB1HrFUuOf2VkWPaZ4N2DACCo-185x278.jpg"
+    },
+    {
+      "id": "4cbce4c4-d4b9-4767-a122-916d908e0acc",
+      "title": "Dead Night",
+      "synopsis": "Trata sobre una madre cariñosa que pierde su cordura, desencadenando una serie de acontecimientos que resultan en tragedia y asesinato. La ...",
+      "year": "2018",
+      "genres": ["Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/qaBNJEr6LJA9cg7Ht4I9WqiFBDy-185x278.jpg"
+    },
+    {
+      "id": "ae67056c-8d09-45f3-be10-166ffa635c82",
+      "title": "Brexit",
+      "synopsis": "El consejero político Dominic Cummings lidera una campaña para convencer a los votantes británicos de abandonar la Unión Europea.",
+      "year": "2019",
+      "genres": ["Drama", "Historia", "Película de TV"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/kWgIRP33JPKfMbsSUOPFCZenQJe-185x278.jpg"
+    },
+    {
+      "id": "4be70fd2-7197-4f4f-b61d-4fac3cb15468",
+      "title": "Animales Fantásticos: Los Crímenes de Grindelwald",
+      "synopsis": "El poderoso mago oscuro Gellert Grindelwald (Johnny Depp) fue capturado por MACUSA (Magicongreso Único de la Sociedad Americana), con la ayuda de ...",
+      "year": "2018",
+      "genres": ["Aventura", "Familia", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/zs6LFuE4aB1I8crKjAhlPVTHAOS-185x278.jpg"
+    },
+    {
+      "id": "854d13b1-3482-41fb-854e-729f464daf9f",
+      "title": "Operación Overlord",
+      "synopsis": "La víspera del Día-D, un grupo de soldados aliados son enviados a la Francia ocupada por los nazis para completar una misión esencial para la ...",
+      "year": "2018",
+      "genres": ["Acción", "Bélica", "Ciencia ficción", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/nGUoTarYNL1jI62X31PSAhBgxgf-185x278.jpg"
+    },
+    {
+      "id": "cccbd4af-217a-429d-9b41-19814e74f2a6",
+      "title": "Twisted",
+      "synopsis": "Kara se ha convertido en la roca de su novio Tyler, recuperándolo después de un tiempo turbulento en su vida. Están planeando casarse y todo es ...",
+      "year": "2018",
+      "genres": ["Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/2BiYPKnlaRzWnaWzvqPeu5B1bvn-185x278.jpg"
+    },
+    {
+      "id": "728146ac-033b-45fa-ac08-cdc65dad6273",
+      "title": "Wifi Ralph",
+      "synopsis": "Seis años después de salvar el arcade del ataque de los Cybugs y de la venganza de Turbo,5​ la historia se centrará en las aventuras de Ralph en ...",
+      "year": "2018",
+      "genres": ["Animación", "Comedia", "Familia", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/wfff5XoLdGQzCt2Nb4ZF6WYNLAq-185x278.jpg"
+    },
+    {
+      "id": "2ce2e48b-9f5f-4611-b96d-39cedb0e3f43",
+      "title": "Creed II: Defendiendo el Legado",
+      "synopsis": "La vida se ha convertido en un acto de equilibrio para Adonis Creed. Entre las obligaciones personales y el entrenamiento para su próxima gran ...",
+      "year": "2018",
+      "genres": ["Acción", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/rButUxve80Y46abjc8qaKUWq6w8-185x278.jpg"
+    },
+    {
+      "id": "14472609-7f1e-4ebd-bdd9-e269c17b836a",
+      "title": "Scooby-Doo! y La Maldición de los 13 fantasmas",
+      "synopsis": "Mystery Inc. se retira de resolver crímenes luego de arruinar un caso. Cuando Vincent Van Ghoul se pone en contacto con la pandilla sobre una ...",
+      "year": "2019",
+      "genres": ["Animación", "Aventura", "Comedia", "Familia", "Misterio"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/nsxAP1F3qQ9C4c1C9hB7iTw8P1O-185x278.jpg"
+    },
+    {
+      "id": "093dbaf6-c859-4a01-b9df-7c1811919ab6",
+      "title": "Los adioses",
+      "synopsis": "A principios de los años 50 en la Ciudad de México, Rosario va en contra de una sociedad regida por hombres: es una intelectual universitaria ...",
+      "year": "2018",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/sLj3lQcaFuHXG8QBrcfFbQ0gfGQ-185x278.jpg"
+    },
+    {
+      "id": "6616b927-1ad3-4c0f-afcf-bf53532017cf",
+      "title": "Santo cachón",
+      "synopsis": "Carlos es todo un toro con su esposa Claudia, pero por los cachos. Porque aunque como marido ha sido todo un santo, como hombre solo ha sido un ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/MV5BMDhjNDc4YzEtYTIxZi00MTU3LWEzNWMtMTBhZGIyNTkyYTVjXkEyXkFqcGdeQXVyNzQ0OTg4MTk@._V1_1-185x278.jpg"
+    },
+    {
+      "id": "8e56e306-29bc-4915-bffc-ea1ccc6cb6ac",
+      "title": "Compulsion",
+      "synopsis": "Sadie, una novelista erótica en ciernes, junto con una enigmática mujer llamada Francesca, son encandiladas por un ex-amante para unirse a él en ...",
+      "year": "2018",
+      "genres": ["Fantasía", "Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/oUcemt7fIpMyAeJzUdTcJv8iJUZ-185x278.jpg"
+    },
+    {
+      "id": "8e5c2432-6925-4603-acdf-95bdc235db2f",
+      "title": "First We Take Brooklyn",
+      "synopsis": "Después de estar en una de las cárceles más duras de Israel, Mikki Levy es liberado por un tecnicismo, y se muda a Brooklyn para empezar de cero. ...",
+      "year": "2018",
+      "genres": ["Crimen", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/fY89u0YiuX3z6QhztC1ma5MtFuh-185x278.jpg"
+    },
+    {
+      "id": "bf303773-e7c9-4607-b60e-58fa11446cd1",
+      "title": "Mariposas verdes",
+      "synopsis": "En un colegio de clase alta, Mateo, estudiante sobresaliente de último año, choca permanentemente con Lucas, quien aprovecha ser sobrino de la ...",
+      "year": "2017",
+      "genres": ["Drama", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/gT8a2y7dpmm3gWL8Yn5myanZ2yA-185x278.jpg"
+    },
+    {
+      "id": "060fe7b6-b0c5-4560-aaae-b5c2eb5ea88f",
+      "title": "Robin Hood",
+      "synopsis": "Cuando el joven Robin Hood regresa a su hogar tras luchar en Las Cruzadas, se encuentra con que el bosque de Sherwood está ahora lleno de ...",
+      "year": "2018",
+      "genres": ["Acción", "Aventura", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/v0QEhPYZngTzntKSvXXRbqcyVEQ-185x278.jpg"
+    },
+    {
+      "id": "16ae017b-8fcd-45e7-8ea4-5d3a682afddf",
+      "title": "El Templo",
+      "synopsis": "Debido a un fallo de la inteligencia artificial, una base militar secreta se queda aislada con un equipo de policías de élite dentro. La ...",
+      "year": "2017",
+      "genres": ["Acción", "Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/AmKtInv6HL4ceFaK5GssRJnt3JP-185x278.jpg"
+    },
+    {
+      "id": "031437f1-2a5f-43fd-9bd5-390d6653f086",
+      "title": "Hover",
+      "synopsis": "“Hover” está ambientada en un futuro cercano en el que hay escasez de comida. La tecnología ayuda a la producción con drones ...",
+      "year": "2018",
+      "genres": ["Ciencia ficción"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/rSszYwFRIpsJ1qSYnRt8nLjKTDl-185x278.jpg"
+    },
+    {
+      "id": "e954f799-d78e-4e22-8cef-0f55b55741f7",
+      "title": "Salvando al reino de Oz",
+      "synopsis": "El astuto y perverso Urfin decide convertirse en el gobernante de la maravillosa tierra de Oz, tomar la ciudad Esmeralda con sus soldados de ...",
+      "year": "2017",
+      "genres": ["Animación", "Aventura", "Familia", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/gvwBDB32JMC98MmVUafBtyfKibz-185x278.jpg"
+    },
+    {
+      "id": "8150c078-0905-4672-aa2d-d9bc11acaae1",
+      "title": "Best F(r)iends: Volume 2",
+      "synopsis": "Comenzando justo tras el final del Vol. 1, Jon huye con su novia mientras Harvey les persigue reclamando su dinero.",
+      "year": "2018",
+      "genres": ["Acción", "Comedia", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/mOj6rXKsvZU62cX4pVWyX33ibdR-185x278.jpg"
+    },
+    {
+      "id": "51745657-2c87-4925-a672-567094512c95",
+      "title": "De tonta, nada",
+      "synopsis": "Una mujer sale de prisión y al reunirse con su hermana descubre que ella mantiene una relación por internet con un hombre que puede estar engañándola.",
+      "year": "2018",
+      "genres": ["Comedia", "Drama", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/2VTHRTwLlnFDlNUxc8MEeFwCQTm-185x278.jpg"
+    },
+    {
+      "id": "9e8126ae-3029-4177-88de-02b6e320bf1e",
+      "title": "Una infidelidad peligrosa",
+      "synopsis": "Laura y su marido contratan a Elliot, un hombre muy atractivo, para hacer una reforma en su casa. Elliot resulta muy profesional y encantador, ...",
+      "year": "2017",
+      "genres": ["Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/hnYvfC30Dbuk60X3eon0cb3NAaM-185x278.jpg"
+    },
+    {
+      "id": "97ca56bc-0ebf-4a19-a43c-dce86a338eb0",
+      "title": "Velvet Buzzsaw",
+      "synopsis": "En el despiadado mundo del comercio del arte de las artes plásticas, Josephina (Zawe Ashton) encuentra por accidente un auténtico tesoro: tras ...",
+      "year": "2019",
+      "genres": ["Comedia", "Misterio", "Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/3rViQPcrWthMNecp5XnkKev6BzW-185x278.jpg"
+    },
+    {
+      "id": "ae0051f8-11aa-4baf-b486-25cb7a18a769",
+      "title": "El intercambio",
+      "synopsis": "Jaime es un tipo de cuarenta y pocos años que no ha conseguido nada significativo en la vida. Está casado con Eva, quien debido a sus carencias ...",
+      "year": "2017",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/tgeHCa8GKt5FyHZCUzpV0ncZIh8-185x278.jpg"
+    },
+    {
+      "id": "af82bd6f-9c87-4e72-b7e1-30f39d839553",
+      "title": "El Club de los Insomnes",
+      "synopsis": "Una amistad única se desarrolla entre un hombre que sufre de insomnio, un aspirante a fotógrafo y una mujer que no está segura acerca de su ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/cxo8Z5IgVcag1JcBjw9y7N2lGt5-185x278.jpg"
+    },
+    {
+      "id": "204ada4f-f7ca-42e2-b012-4019e1b318ab",
+      "title": "Donaire y Esplendor",
+      "synopsis": "En el Carnaval tradicional de un pequeño pueblo llamado Las Tablas hay dos calles rivales: Calle Arriba y Calle Abajo. Una joven pareja, después ...",
+      "year": "2017",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/bn6XVspFYBwef9KiqvATdmLJOdn-185x278.jpg"
+    },
+    {
+      "id": "72790e07-9454-44f2-8bc9-b6260605b067",
+      "title": "A ti te quería encontrar",
+      "synopsis": "Diego, a tan solo unas semanas de su boda con Julia, la novia perfecta, es obligado por su padre a remodelar un hotel que destruyó en su ...",
+      "year": "2018",
+      "genres": ["Comedia", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/73atVJhv6FkGAdgicw1Jf0Hf9Tf-185x278.jpg"
+    },
+    {
+      "id": "6e94327b-f08d-4f9a-8dba-0b66430de5a8",
+      "title": "No Me Digas Solterona",
+      "synopsis": "La vida de Patricia, una joven profesional de 35 años, era casi perfecta: un buen trabajo, amigas que la adoran y un novio con quien pensaba ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/jPp5mYEHxdwuwDxo5tPpF6tfie6-185x278.jpg"
+    },
+    {
+      "id": "06157b05-a3f2-4760-81dc-591ff6b2ce28",
+      "title": "Cover Versions",
+      "synopsis": "Cuatro miembros de una banda relatan diferentes historias de una noche de sexo, drogas y asesinatos antes de su primer gran show en un popular ...",
+      "year": "2018",
+      "genres": ["Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/c6H5hrU9AtVjDnplPVnwAxa1wGj-185x278.jpg"
+    },
+    {
+      "id": "32b1469d-07a8-438b-b70c-7a1c27f3461d",
+      "title": "Plan V",
+      "synopsis": "Paula se prepara para darle una sorpresa de aniversario a su novio Chema, un famoso actor de novelas. Pero la sorpresa es suya al darse cuenta ...",
+      "year": "2018",
+      "genres": ["Comedia", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/o7kbjvvOesIC0eEbV3ctH690Mho-185x278.jpg"
+    },
+    {
+      "id": "619d57d3-3f68-4525-bb6d-e6cccd07dd7a",
+      "title": "Goodbye Berlin",
+      "synopsis": "Maik, un muchacho de 14 años marginado por su clase, crece en el seno de una familia rica y disfuncional en Berlín. Durante las vacaciones ...",
+      "year": "2016",
+      "genres": ["Comedia", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/uafNyiPgyrfjB5yeELOM7s5i0t9-185x278.jpg"
+    },
+    {
+      "id": "2b102477-03ac-446f-8070-a2886873c1d6",
+      "title": "Carmen y Lola",
+      "synopsis": "Carmen es una adolescente gitana que vive en el extrarradio de Madrid. Como cualquier otra gitana, está destinada a vivir una vida que se repite ...",
+      "year": "2018",
+      "genres": ["Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/dwgQbZtSFFnJOTlsw3OQPDJiK4o-185x278.jpg"
+    },
+    {
+      "id": "21249115-e119-4db5-ac90-e2d1038e3172",
+      "title": "Miau",
+      "synopsis": "Cuatro jubilados trazan un plan para sentirse vivos: van a robarle al aburrimiento y a la vida. Telmo ocupa su tiempo escribiendo un ensayo sobre ...",
+      "year": "2018",
+      "genres": ["Comedy"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/MV5BODFhZjQxMTQtNDBjZC00ZDBlLWExMWUtN2E5ZWZiNGM3YzJmXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SY1000_CR007001000_AL_1-185x278.jpg"
+    },
+    {
+      "id": "a84eb925-1f35-4a0e-8d92-948b0c48919b",
+      "title": "Somos tr3s",
+      "synopsis": "Nacho, Ana y Sebastián se conocen en una fiesta y se enamoran entre los tres. Desde ese momento, surge una relación inesperada, donde todo es posible.",
+      "year": "2017",
+      "genres": [],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/02/oFub6RmDkq9P2U1LWQXwPBduW9y-185x278.jpg"
+    },
+    {
+      "id": "26447d01-4276-455a-8ea6-ef2de3cef5c7",
+      "title": "La educación del Rey",
+      "synopsis": "Reynaldo Galíndez, alias ‘Rey’, es un adolescente que, escapando de su bautismo como delincuente, cae en el patio de la casa de ...",
+      "year": "2017",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/kFfbWwfhANs0nRSqcNv6NsaL49V-185x278.jpg"
+    },
+    {
+      "id": "7cecc2d1-16ec-445b-a03a-c1b687609f1e",
+      "title": "Ánimas",
+      "synopsis": "Álex es una chica segura de sí misma, con una fuerte personalidad y gran tenacidad. Está muy unida a su mejor amigo Abraham, a quien brinda ...",
+      "year": "2018",
+      "genres": ["Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/l08MT4tthtP6bJQhFNrfdL4omgs-185x278.jpg"
+    },
+    {
+      "id": "417ffb7f-ccb5-490a-a1fe-1921a82389a4",
+      "title": "El último hombre",
+      "synopsis": "Cuenta la historia de un veterano de guerra con trastorno de estrés post traumático (Hayden Christensen) que luego de establecer una relación con ...",
+      "year": "2019",
+      "genres": ["Acción", "Ciencia ficción", "Drama", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/syQkoFYfCADPOnP5ZPlyddGPtqC-185x278.jpg"
+    },
+    {
+      "id": "dbd74817-a132-40be-8fd5-44ff4760fac5",
+      "title": "Destrucción: Los Angeles",
+      "synopsis": "El periodista John Benson aprovecha la oportunidad de cubrir unas noticias de última hora, cuando se produce una explosión fatal y un terremoto ...",
+      "year": "2017",
+      "genres": ["Acción", "Aventura"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/j0CW09HLnx2EUw9mFQOyOFfCsID-185x278.jpg"
+    },
+    {
+      "id": "9acd0006-ebdd-4042-832b-e52d60bf2edf",
+      "title": "Colette: liberación y deseo",
+      "synopsis": "Cuenta la historia de Sidonie-Gabrielle Colette (Keira Knightley), autora de las polémicas novelas que causaron gran revuelo en el París de los ...",
+      "year": "2018",
+      "genres": ["Drama", "Historia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/lz4FfYfqTwARddlwPse6NbOttd-185x278.jpg"
+    },
+    {
+      "id": "93186dd5-93ea-40a9-885b-056f160fa8a7",
+      "title": "La Chica en la Telaraña",
+      "synopsis": "La joven hacker Lisbeth Salander y el periodista Mikael Blomkvist se encuentran atrapados en una red de espías, ciberdelincuentes y funcionarios ...",
+      "year": "2018",
+      "genres": ["Acción", "Crimen", "Drama", "Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/c156owEtfOYVIOl0LSrqjRewZdg-185x278.jpg"
+    },
+    {
+      "id": "4b38fef9-e0dc-4d8b-b055-9c0f74a81dbe",
+      "title": "Superando el Límite",
+      "synopsis": "Un hombre debe hacer todo lo posible para descubrir lo que le sucedió a su esposa e hija secuestradas.",
+      "year": "2017",
+      "genres": ["Acción", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/iMhDWXIJtVDK6Cgs3SwVzlh3qJo-185x278.jpg"
+    },
+    {
+      "id": "61f27654-ef1d-414f-b114-15d7f2fdc17d",
+      "title": "El asesinato de la familia Borden",
+      "synopsis": "Lizzie, una mujer soltera de 32 años y marginada social, lleva una vida claustrofóbica bajo el control frío y dominante de su padre. Cuando ...",
+      "year": "2018",
+      "genres": ["Crimen", "Drama", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/pQ5YCLjLlm4PniczpeDnXqr7mEC-185x278.jpg"
+    },
+    {
+      "id": "4a9318bf-0dcb-411a-ac50-eb759e53a937",
+      "title": "Polar",
+      "synopsis": "Duncan Vizla, el asesino más letal del mundo, conocido como Black Káiser (Mads Mikkelsen), está a punto de jubilarse. Pero su antiguo jefe le ha ...",
+      "year": "2019",
+      "genres": ["Acción", "Comedia", "Crimen", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/qOBEpKVLl8Q9CZScbOcRRVISezV-185x278.jpg"
+    },
+    {
+      "id": "f0eb59b9-88fe-4b8c-9863-3dfc3c8b1149",
+      "title": "El reino",
+      "synopsis": "Manuel (Antonio de la Torre), un influyente vicesecretario autonómico que lo tiene todo a favor para dar el salto a la política nacional, observa ...",
+      "year": "2018",
+      "genres": ["Drama", "Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2019/01/hPYRQYycflQbUcb6H0XRGwZkGLz-185x278.jpg"
     }
   ]
 }
