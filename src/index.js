@@ -4,8 +4,6 @@ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const uuid = require('uuid/v4')
 
-const unused = []
-
 function database() {
   const adapter = new FileSync('movies.json')
   const db = low(adapter)
