@@ -1,3 +1,4 @@
+const path = require('path')
 const cheerio = require('cheerio')
 const request = require('request-promise-native')
 const low = require('lowdb')
@@ -5,7 +6,7 @@ const FileSync = require('lowdb/adapters/FileSync')
 const uuid = require('uuid/v4')
 
 function database() {
-  const adapter = new FileSync('movies.json')
+  const adapter = new FileSync(path.join(__dirname, 'movies.json'))
   const db = low(adapter)
 
   // const movies = require('./movies.json')
@@ -81,6 +82,7 @@ async function scrapPage(page = 1) {
 }
 
 async function Main() {
+  console.log('Process started...')
   try {
     const $ = await request({
       uri: 'https://cuevana2espanol.com/ver-pelicula-online',
@@ -94,6 +96,7 @@ async function Main() {
       .pop()
 
     do {
+      console.log(`Scraping page number ${pages}`)
       scrapPage(pages)
       pages -= 1
     } while (pages !== 0)

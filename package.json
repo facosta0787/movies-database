@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node index",
-    "dev": "NODE_ENV=development nodemon --ignore movies.json index",
+    "start": "",
+    "dev": "",
+    "scrape": "NODE_ENV=production node src/scrape.js",
+    "scrape:dev": "NODE_ENV=development nodemon --ignore movies.json src/scrape.js",
     "lint": "eslint --fix .",
     "precommit": "lint-staged"
   },
