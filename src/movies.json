@@ -1,0 +1,411 @@
+{
+  "movies": [
+    {
+      "id": "7e294c2a-f767-4354-a3ae-8139e84fbc82",
+      "title": "Operación Red Sparrow",
+      "synopsis": "Dominika Egorova (Jennifer Lawrence) es reclutada contra su voluntad para ser un “gorrión”, una seductora adiestrada del servicio de seguridad ...",
+      "year": "2018",
+      "genres": ["Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/wt6wL8ZnzqSsg2xUBRdfJn3ELVa-185x278.jpg"
+    },
+    {
+      "id": "4d3218ee-3c4c-450a-a09b-c04a16eb8eca",
+      "title": "No Estoy Loca",
+      "synopsis": "Carolina (Paz Bascuñán) tiene una vida perfecta, hasta que descubre que no puede tener hijos…el mismo día en que su esposo la deja por su mejor ...",
+      "year": "2018",
+      "genres": ["Comedia", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/bRNIwUsAzyG8XKroQiYnh6Ywo2q-185x278.jpg"
+    },
+    {
+      "id": "4e70540e-d237-4e7b-89e7-d854fca867ba",
+      "title": "Noche de juegos",
+      "synopsis": "Un grupo de amigos que se reúne de forma periódica para pasar una noche de juegos se encuentran una noche tratando de resolver el misterio de un ...",
+      "year": "2018",
+      "genres": ["Comedia", "Crimen", "Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/tiwsCtqq7A05FIHhYA37AoC4OsO-185x278.jpg"
+    },
+    {
+      "id": "b686f253-0928-45e2-baa7-421e9a276163",
+      "title": "Family Blood",
+      "synopsis": "Ellie, una drogadicta en rehabilitación, acaba de mudarse a una nueva ciudad con sus dos hijos adolescentes. Ella ha luchado por mantenerse ...",
+      "year": "2018",
+      "genres": ["Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/zjoVzeBLBzI2du0tT5VqcS5xBE9-185x278.jpg"
+    },
+    {
+      "id": "d97b3ad6-e284-4a66-8691-ca97dbc414a4",
+      "title": "Most Likely to Murder",
+      "synopsis": "Billy, el que fuera el chico más popular del instituto, regresa a su ciudad natal 10 años después, para descubrir que ya no es guay y la chica ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/uozkm1AvcEo8ZKU3UKam06YWmbc-185x278.jpg"
+    },
+    {
+      "id": "762f55a4-4062-4037-84ed-55dd68ce8813",
+      "title": "Anon",
+      "synopsis": "Ambientada en un mundo futuro en el que no existe el anonimato ni el crimen, un detective se encuentra con una mujer que amenaza su seguridad.",
+      "year": "2018",
+      "genres": ["Ciencia ficción", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/qIST7FwpELT1SXR3cVSy5JoOSby-185x278.jpg"
+    },
+    {
+      "id": "c686b863-5f4b-4aac-ad35-930c0e81840e",
+      "title": "Samson",
+      "synopsis": "Después de perder el amor de su vida, un joven hebreo con una fuerza sobrenatural defiende a su pueblo, sacrificando todo para vengar su amor, su ...",
+      "year": "2018",
+      "genres": ["Acción", "Aventura", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/v7Zaj1IEzMMB7KzfglpxdXWB66u-185x278.jpg"
+    },
+    {
+      "id": "fcd7224f-6c93-4c95-bd1d-1edd671ee75b",
+      "title": "My Perfect Romance",
+      "synopsis": "El nuevo CEO de Robinson Tech, Wes Robinson, está buscando nuevas ideas para impulsar las ventas de la compañía. Vivian Blair, una desarrolladora ...",
+      "year": "2018",
+      "genres": ["Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/o3v4J05QKJa2S62YL6zFgHpl9px-185x278.jpg"
+    },
+    {
+      "id": "b14289ba-17d2-45bb-a95d-a2e3cf3bf0d6",
+      "title": "15:17 Tren a París",
+      "synopsis": "21 de agosto de 2015. Un tren Thalys con más de quinientos pasajeros a bordo recorre el trayecto Ámsterdam–Paris. Cuando el tren atraviesa el ...",
+      "year": "2018",
+      "genres": ["Drama", "Historia", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/uijXJYJOY0v0VtCXwQ9UXAJHtPH-185x278.jpg"
+    },
+    {
+      "id": "740ff7a7-f150-43ff-b3d5-341985d0c211",
+      "title": "Darc",
+      "synopsis": "Un agente de la Interpol recluta en sus filas a un sanguinario criminal conocedor de la yakuza para acabar con una red mundial de trata de personas.",
+      "year": "2018",
+      "genres": ["Acción", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/1fENFZBJvk7kjrVd5TpmL540gUt-185x278.jpg"
+    },
+    {
+      "id": "8456ab49-94bb-401a-a729-f85715001d1f",
+      "title": "Cuando cae la nieve",
+      "synopsis": "1950, Moscú. Katya es una espía estadounidense en plena carrera armamentística de la Guerra Fría. Cuando le asignan su misión más importante, ...",
+      "year": "2016",
+      "genres": ["Drama", "Misterio", "Romance", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/owHU4v4e5q3lx7WVZIZUzCyNkic-185x278.jpg"
+    },
+    {
+      "id": "35568b09-b27d-4cc5-ac59-148e12828849",
+      "title": "¡Hey Arnold! Una peli en la jungla",
+      "synopsis": "Arnold y toda su clase ganan un viaje a San Lorenzo. Ésta va a ser la oportunidad perfecta para que Arnold encuentre a sus padres, que ...",
+      "year": "2017",
+      "genres": ["Animación", "Aventura", "Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/r42WcL8xjH3ThQywlSfWgoW4GOU-185x278.jpg"
+    },
+    {
+      "id": "ff320137-e0de-43bb-92c5-cbe31171c6c3",
+      "title": "El pequeño vampiro",
+      "synopsis": "Rudolph es un chico de trece años que además es vampiro. La vida del joven se complica en el momento en el que un prestigioso cazavampiros ...",
+      "year": "2017",
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia",
+        "Familia",
+        "Fantasía",
+        "Terror"
+      ],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/5JeQNzQEAGHtWVmgKKBdSOpBXB1-185x278.jpg"
+    },
+    {
+      "id": "8f7709a3-5283-4210-a32c-bd4ade666a08",
+      "title": "LEGO DC Super Hero Girls: Super-Villain High",
+      "synopsis": "Las rivalidades aparecen en LEGO DC Super Girls. Ofreciendo la promesa de “Menos deberes, más diversion”, el instituto Uber está de moda y cuando ...",
+      "year": "2018",
+      "genres": ["Acción", "Animación", "Familia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/2B1reA1O4HM0oUwkjdCkTslLWCM-185x278.jpg"
+    },
+    {
+      "id": "0b52d232-15aa-45a6-ac2b-bfe27a30ff1b",
+      "title": "Pantera negra",
+      "synopsis": "Pantera negra, de Marvel Studios, sigue a T’Challa, quien regresa a Wakanda, su solitaria nación africana de tecnología avanzada, para ...",
+      "year": "2018",
+      "genres": ["Acción", "Aventura", "Ciencia ficción", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/uxzzxijgPIY7slzFvMotPv8wjKA-185x278.jpg"
+    },
+    {
+      "id": "5576bc3b-228f-4d84-b369-a5dc07afe001",
+      "title": "La Leyenda del Charro Negro",
+      "synopsis": "Después de haber liberado al Chupacabras, Leo San Juan decide que es tiempo de regresar junto con su hermano Nando a casa de su abuela. A mitad ...",
+      "year": "2018",
+      "genres": ["Animación"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/qPRrKjmHR1dK3yQij2RNX7TNNbB-185x278.jpg"
+    },
+    {
+      "id": "0c51372b-9c50-403b-b05a-c51e03ef390c",
+      "title": "Thi Mai, rumbo a Vietnam",
+      "synopsis": "Narra la odisea de Carmen, una mujer que tras perder a su hija en un accidente, recibe una carta que le anuncia que se le ha concedido a su hija ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/7bMzdwdZWHw5vWiI5YS2YOb6b3R-185x278.jpg"
+    },
+    {
+      "id": "9e74cff2-afd7-4774-b9b9-bf1201346038",
+      "title": "Entre dos maridos",
+      "synopsis": "La boda de una estrella de cine retirada con su cuarto marido se convierte en un caos cuando las familias (y su exmarido) aparecen en la ceremonia.",
+      "year": "2017",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/puIeVuzasmRoK472TpbJhgewvkj-185x278.jpg"
+    },
+    {
+      "id": "b4fb0e7b-e20a-4d50-b3bd-865114b85f6e",
+      "title": "Braven",
+      "synopsis": "Un leñador debe defender a su familia de un peligroso grupo de traficantes de droga.",
+      "year": "2018",
+      "genres": ["Acción", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/wZMqpxsO8p2MUJZgKgIlAPvxokf-185x278.jpg"
+    },
+    {
+      "id": "72c60585-02f0-45c1-a29c-ec74f7ae7ce6",
+      "title": "El gran León",
+      "synopsis": "Ivana Cornejo (Gianella Neyra) es una abogada divorciada y socia de su ex marido Diego Bisoni (Cristian Rivero) en un estudio de abogados. ...",
+      "year": "2017",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/05/2WzDoeyUy4NI642W9L5UKlvvkiq-185x278.jpg"
+    },
+    {
+      "id": "7358b19e-9521-4a2e-96c8-9e3e17783630",
+      "title": "Maracaibo",
+      "synopsis": "El crimen de Facundo provoca en Gustavo y Cristina (sus padres) un vacío irreparable. La tragedia evidencia todo lo que no había podido ser en el ...",
+      "year": "2017",
+      "genres": ["Crimen", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/fNjAMONXNx8TrtOem36tYiegq6b-185x278.jpg"
+    },
+    {
+      "id": "435b8905-3163-477d-b1c3-e17915e175b4",
+      "title": "Que baje Dios y lo vea",
+      "synopsis": "Narra la historia de un monasterio en quiebra, cuya única oportunidad de salvación está en ganar la “Champions Clerum”, un torneo de fútbol ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/1KOwQ6O42pk2mg3xbA0hQJInK5-185x278.jpg"
+    },
+    {
+      "id": "60e7d26c-0c2e-4915-9254-0da9c6dfcc41",
+      "title": "Red de libertad",
+      "synopsis": "Francia, principio de la II Guerra Mundial. Helena Studler es una religiosa que desde joven se dedica al cuidado de los huérfanos y los ...",
+      "year": "2017",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/ookujuhOql7nddeaKaFuMGkLWdJ-185x278.jpg"
+    },
+    {
+      "id": "1d669612-386d-4594-964b-fc230405684a",
+      "title": "Psychokinesis",
+      "synopsis": "Comedia en la que un padre que se propone salvar a su hija con unos superpoderes que acaba de descubrir que posee.",
+      "year": "2018",
+      "genres": ["Acción", "Aventura", "Fantasía"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/5LRL9cvVQl0Mne8CZslb5VNwY6v-185x278.jpg"
+    },
+    {
+      "id": "a52040b3-e938-4d9f-9c51-6b87b057a29c",
+      "title": "Boys in the Trees",
+      "synopsis": "Es Halloween en el año 1997, la última noche de instituto para Corey, Jango y su pandilla de skaters, Los Gromits. La infancia se acaba y la vida ...",
+      "year": "2016",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/nZzSxliBkqVqRaXKCnQVr59VcNt-185x278.jpg"
+    },
+    {
+      "id": "c0d6a5db-5f51-4087-b09a-dde3a6d06759",
+      "title": "Candy Jar",
+      "synopsis": "Son las estrellas del equipo de debate de su instituto, pero lo único que tienen en común es su ambición de llegar a la universidad de sus sueños.",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/zPs6HFd56BiQXAq4HzjdPHlyzcT-185x278.jpg"
+    },
+    {
+      "id": "7ff90bd4-103b-426c-b6c5-5a7ea95b9277",
+      "title": "La peor semana",
+      "synopsis": "Un devoto padre de clase media (Adam Sandler) está decidido a pagar la boda de su hija a pesar de las insistencias del padre del novio, que es ...",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/v5yY1kBTvooyDqs3OvHexvimC6w-185x278.jpg"
+    },
+    {
+      "id": "a6a9b8e4-f768-4c4a-890f-cd60fdd46c93",
+      "title": "La Princesa Cisne: Un Misterio Real",
+      "synopsis": "¡Vuelven tus personajes favoritos en una nueva aventura real! Parece que una Z misteriosa aparece como una marca en los residentes de palacio. ...",
+      "year": "2018",
+      "genres": [],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/a27KHrVtFpx2U00zhnqtl3xgXm2-185x278.jpg"
+    },
+    {
+      "id": "5d587cb3-921e-4754-995a-50761c33713e",
+      "title": "La higuera de los bastardos",
+      "synopsis": "La historia de un falangista reconvertido a ermitaño que queda atrapado al cuidado de una higuera después de sentir la mirada de odio de un niño ...",
+      "year": "2017",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/eBQw41u55jdeDrqWUCDFmS13tmT-185x278.jpg"
+    },
+    {
+      "id": "6c4cde81-1778-42b5-8b9b-0ff218cfaf84",
+      "title": "Los que aman odian",
+      "synopsis": "En una playa solitaria, se alza un viejo hotel perdido en el tiempo. Enrique Hubermann, médico homeópata, viaja huyendo de un amor. Por una broma ...",
+      "year": "2017",
+      "genres": ["Drama", "Misterio"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/y3F4FAr1HbuFbgrsH5s8VDVgTn-185x278.jpg"
+    },
+    {
+      "id": "459738da-290c-49f8-980d-ae17ca0bfcdf",
+      "title": "Batman Ninja",
+      "synopsis": "Batman, junto a sus aliados y enemigos, se ve transportado desde la moderna Gotham hasta el Japón feudal. Film animado coproducido entre Japón y ...",
+      "year": "2018",
+      "genres": ["Acción", "Animación"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/9BaOALbsB9bALkUHcj5Z65JWjOv-185x278.jpg"
+    },
+    {
+      "id": "44a0cb1b-9067-40b6-896c-696f422cc27f",
+      "title": "El Pampero",
+      "synopsis": "Un hombre (Chávez) y una mujer (Gamboa), que nunca se han visto antes, viajan en un velero. Él sólo sabe que lo espera su destino al final del ...",
+      "year": "2017",
+      "genres": ["Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/9GcOFLjKlAkG2Jj3Kh1hrG6dpYE-185x278.jpg"
+    },
+    {
+      "id": "fb0ccd1e-5102-4621-bc35-a0c40e2ed7c6",
+      "title": "Cincuenta sombras liberadas",
+      "synopsis": "Creyendo que han dejado atrás las sombras del pasado, los recién casados Christian y Anastasia disfrutan de su relación y de su vida llena de ...",
+      "year": "2018",
+      "genres": ["Drama", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/eLa1TaO78vbqANvfcRHZBnI1F3Q-185x278.jpg"
+    },
+    {
+      "id": "16ed2619-889d-466c-b6d0-19a237e25891",
+      "title": "Mercury 13",
+      "synopsis": "Documental que se centra en las mujeres que hicieron las pruebas en 1961 para ir al espacio, pero que vieron cómo sus sueños se rompieron cuando ...",
+      "year": "2018",
+      "genres": ["Documental"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/cIH8lHaNRGjSLXlkOzyp1MkE0yk-185x278.jpg"
+    },
+    {
+      "id": "33d75386-7989-40bb-b3db-9ac915c5278b",
+      "title": "Dude",
+      "synopsis": "Un grupo de amigas adolescentes deberá hacer frente a la vida después del instituto.",
+      "year": "2018",
+      "genres": ["Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/yPLirq1p9rALSuECwEL6N0zxrl8-185x278.jpg"
+    },
+    {
+      "id": "4711a284-ecca-4454-b44a-19ed15fa1022",
+      "title": "27: El club de los malditos",
+      "synopsis": "Una noche en el verano más caluroso en 20 años, Leandro De La Torre, famoso cantante punk, sale disparado por una ventana e impacta sobre el ...",
+      "year": "2018",
+      "genres": ["Acción", "Comedia", "Crimen"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/b1uQJw8w0j7b6zkac3fnudpj3s7-185x278.jpg"
+    },
+    {
+      "id": "32ef46d6-b97d-4c20-98d4-145bd9ca63c4",
+      "title": "Bushwick",
+      "synopsis": "Cuando Lucy sale del metro en Bushwick, el último barrio de moda de Nueva York, no encuentra ni hipsters ni rastros de la gentrificación, sino un ...",
+      "year": "2017",
+      "genres": ["Acción", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/fMGcxUu3hiOyVlk0K9gnAIfVCG1-185x278.jpg"
+    },
+    {
+      "id": "cb1e8280-a3d8-4781-ae2e-7633e6318faa",
+      "title": "Una Historia de fantasmas",
+      "synopsis": "Recién fallecido, un fantasma de revestimiento blanco regresa a su casa suburbana para consolar a su desprevenida esposa, sólo para descubrir que ...",
+      "year": "2017",
+      "genres": ["Drama", "Fantasía", "Romance"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/4IilPYDb2yVXaYhngoErjtfEAk-185x278.jpg"
+    },
+    {
+      "id": "9ed47e8c-8b58-4481-8e14-2256843cb4b1",
+      "title": "Stickman",
+      "synopsis": "Lo que aguarda debajo de tu cama y se esconde en el armario, acecha tus sueños… te está esperando. Eso lo sabe perfectamente Emma Wright, ...",
+      "year": "2017",
+      "genres": ["Suspense", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/qVMdiYaYr8it8g4dkk3r77sZv2m-185x278.jpg"
+    },
+    {
+      "id": "63f3bdba-e490-40cb-af3a-f34dbad1c753",
+      "title": "Tremors: A Cold Day in Hell",
+      "synopsis": "La secuela nos muestra a Burt Gummer y a su hijo Travis en una estación de investiagción remota, donde deberán enfrentarse a los Graboides, que ...",
+      "year": "2018",
+      "genres": ["Acción", "Ciencia ficción", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/74xVzSG1KkiAgt1Vs5r3LyxjCzp-185x278.jpg"
+    },
+    {
+      "id": "654d6b59-9c4b-4dc6-b72a-b7f41de806ea",
+      "title": "Gun Shy",
+      "synopsis": "Basada en la novela homónima de Mark Haskell Smith. Turk Henry es una antigua estrella de rock con sobrepeso que viaja a Chile para disfrutar de ...",
+      "year": "2017",
+      "genres": ["Acción", "Aventura", "Comedia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/ugzaRtgrf2MBCUawgiE6xayXXIE-185x278.jpg"
+    },
+    {
+      "id": "875fe6b5-cbc4-4a44-8b11-fab8b6a1955d",
+      "title": "Surviving The Wild",
+      "synopsis": "En contra de los deseos de sus padres (que están en medio de un complicado divorcio), un niño roba las cenizas de su abuelo muerto y huye al ...",
+      "year": "2018",
+      "genres": ["Acción", "Aventura", "Familia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/bILZzANZ8r9Z7Q5eFDf9yWf6Riz-185x278.jpg"
+    },
+    {
+      "id": "8f52d664-004c-40dc-855a-e573ae79c8db",
+      "title": "La maldición de la casa Winchester",
+      "synopsis": "Basada en la historia de la mansión Winchester, situada en California, a 50 millas de San Francisco. Este edificio victoriano fue construido por ...",
+      "year": "2018",
+      "genres": ["Fantasía", "Misterio", "Suspense"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/tHDtskokZeO9B3JBdR1dSH0uqad-185x278.jpg"
+    },
+    {
+      "id": "0e66a71c-f0c8-4f1d-97ea-deb633ac3444",
+      "title": "Las travesuras de Peter Rabbit",
+      "synopsis": "Adaptación del cuento clásico de Beatrix Potter de un conejo rebelde y de lo más revoltoso que intenta hacerse con el control de la huerta de un ...",
+      "year": "2018",
+      "genres": ["Animación", "Aventura", "Familia"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/bRDgMEikWMK3AJUJw0qqSJsWRAd-185x278.jpg"
+    },
+    {
+      "id": "cb08a0c6-928c-4544-9e4c-eace779acd8f",
+      "title": "Deep Blue Sea 2",
+      "synopsis": "La Doctora Misty Calhoun, conservacionista de tiburones, es invitada para asesorar un proyecto secreto organizado por el farmacéutico millonario ...",
+      "year": "2018",
+      "genres": ["Acción", "Ciencia ficción", "Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/xqjAHXMJLORx9vVsCTJ6ZPJcr3D-185x278.jpg"
+    },
+    {
+      "id": "7d807039-c198-484c-9a88-8d48b3ceeb31",
+      "title": "The Darkest Dawn",
+      "synopsis": "Una aspirante a cineasta graba el caos de una invasión alienígena mientras intenta mantenerse con vida junto a su hermana y un turbulento grupo ...",
+      "year": "2016",
+      "genres": ["Ciencia ficción"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/1YZVnPg7XshVZGMxdmfjXMIi8NQ-185x278.jpg"
+    },
+    {
+      "id": "681469ba-cfaa-45d5-aa30-6430e1e2ca2d",
+      "title": "The Midnight Man",
+      "synopsis": "Alex vive en una antigua mansión donde cuida a su abuela, Anna, quien padece una enfermedad mental. Mientras busca un espejo de su abuela, Alex y ...",
+      "year": "2016",
+      "genres": ["Terror"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/VFq733NwXqk44Wrlmplx1CKL5I-185x278.jpg"
+    },
+    {
+      "id": "2aab34c0-357e-49c8-b6c1-223f761b36a9",
+      "title": "Small Town Killers",
+      "synopsis": "En Jutlandia, dos artesanos y amigos, Ib y Edward, están hartos de sus anodinos matrimonios, y sueñan con una vida en solitario en la que poder ...",
+      "year": "2017",
+      "genres": ["Comedia", "Crimen", "Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/akJWjJhFCZ3U0r9gwG4Au2T9Q4k-185x278.jpg"
+    },
+    {
+      "id": "51a09f24-1974-41c1-9948-f034eff8be7c",
+      "title": "The Debt Collector",
+      "synopsis": "Un artista marcial de formación clásica (Adkins) va a trabajar como cobrador de deudas para la mafia. El trabajo parece bastante fácil, hasta que ...",
+      "year": "2018",
+      "genres": ["Acción"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/cbGXqYHuB6wsT2GrlD8Mng62vDk-185x278.jpg"
+    },
+    {
+      "id": "5366ee5e-167a-4278-ac1e-edd3faac9ac7",
+      "title": "Come Sunday",
+      "synopsis": "El evangelista Carlton Pearson está condenado al ostracismo por su iglesia por predicar que no existe el infierno.",
+      "year": "2018",
+      "genres": ["Drama"],
+      "posterUrl": "https://cuevana2espanol.com/wp-content/uploads/2018/04/oucoXiLsc07YryywgjddmU3YoDV-185x278.jpg"
+    }
+  ]
+}
