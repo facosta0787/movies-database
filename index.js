@@ -37,7 +37,7 @@ async function scrapPage(page = 1) {
       transform: cheerio.load
     })
 
-    $('article.item.movies').each(function moviesIterator() {
+    $('article.item.movies').each(function() {
       const title = $(this)
         .find('h4')
         .text()
@@ -50,7 +50,7 @@ async function scrapPage(page = 1) {
       const genres = []
       $(this)
         .find('.mta a')
-        .each(function genresIterator() {
+        .each(function() {
           genres.push($(this).text())
         })
       const posterUrl = $(this)
