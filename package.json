@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index",
-    "dev": "NODE_ENV=development nodemon --ignore movies.json index"
+    "dev": "NODE_ENV=development nodemon --ignore movies.json index",
+    "lint": "eslint --fix ."
   },
   "keywords": [
     "scraping",
@@ -20,9 +21,23 @@
     "cheerio": "^1.0.0-rc.3",
     "lowdb": "^1.0.0",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.7",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }

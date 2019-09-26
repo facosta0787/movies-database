@@ -2,39 +2,102 @@ const cheerio = require('cheerio')
 const request = require('request-promise-native')
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
+const uuid = require('uuid/v4')
 
-async function Main() {
+function database() {
+  const adapter = new FileSync('movies.json')
+  const db = low(adapter)
+
+  // const movies = require('./movies.json')
+  // if (Object.keys(movies).length === 0) {
+  //   db.defaults({ movies: [] }).write()
+  //   console.log('movies db created !')
+  // }
+
+  const exists = (key, value) => {
+    const found = db
+      .get('movies')
+      .find(movie => {
+        return movie[key].toLowerCase() === value.toLowerCase()
+      })
+      .value()
+
+    return !!found
+  }
+
+  return { db, exists }
+}
+
+async function scrapPage(page = 1) {
   try {
-    const adapter = new FileSync('movies.json')
-    const db = low(adapter)
-    // db.defaults({ movies: [] }).write()
+    const { db, exists } = database()
 
     const $ = await request({
-      uri: 'https://cuevana2espanol.com/ver-pelicula-online/page/3/',
+      uri: `https://cuevana2espanol.com/ver-pelicula-online/page/${page}/`,
       transform: cheerio.load
     })
 
-    $('article.item.movies').each(function(i, el) {
-      const title = $(this).find('h4').text()
-      const year = $(this).find('.data > span').text()
-      const synopsis = $(this).find('div.texto').text()
+    $('article.item.movies').each(function moviesIterator() {
+      const title = $(this)
+        .find('h4')
+        .text()
+      const year = $(this)
+        .find('.data > span')
+        .text()
+      const synopsis = $(this)
+        .find('div.texto')
+        .text()
       const genres = []
-      $(this).find('.mta a').each(function() {
-        genres.push($(this).text())
-      })
+      $(this)
+        .find('.mta a')
+        .each(function genresIterator() {
+          genres.push($(this).text())
+        })
+      const posterUrl = $(this)
+        .find('div.poster > img')
+        .attr('src')
 
+      if (!exists('title', title)) {
+        db.get('movies')
+          .push({
+            id: uuid(),
+            title,
+            synopsis,
+            year,
+            genres,
+            posterUrl
+          })
+          .write()
+      } else {
+        console.error(`Movie ${title}, already exists!`)
+      }
+    })
+  } catch (e) {
+    console.error(e)
+    return false
+  }
 
-      db.get('movies')
-      .push({
-        title,
-        synopsis,
-        year,
-        genres
-      })
-      .write()
+  return true
+}
+
+async function Main() {
+  try {
+    const $ = await request({
+      uri: 'https://cuevana2espanol.com/ver-pelicula-online',
+      transform: cheerio.load
     })
 
-  } catch(e) {
+    let pages = $('div.pagination > span')
+      .first()
+      .text()
+      .split(' ')
+      .pop()
+
+    do {
+      scrapPage(pages)
+      pages -= 1
+    } while (pages !== 0)
+  } catch (e) {
     console.log(e)
   }
 }
