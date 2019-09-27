@@ -1,0 +1,20 @@
+type Movie {
+  id: String
+  title: String
+  synopsis: String
+  year: Int
+  genres: String
+  posterUrl: String
+}
+
+input MoviesFilterInput {
+  title: String
+  synopsis: String
+  year: int
+}
+
+type Query {
+  getMovie(id: String!): Movie
+  getMovies(): [Movies]
+  getMoviesByQuery(filter: MoviesFilterInput, limit: int): [Movies]
+}

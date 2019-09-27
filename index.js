@@ -1,13 +1,33 @@
 const http = require('http')
+const chalk = require('chalk')
 const app = require('./src/app')
+const database = require('./src/lib/database')
 
-app.set('port', 3000)
-const server = http.createServer(app)
+const { conn } = database()
 
-server.listen(3000)
-server.on('listening', function() {
-  console.log('Server running on port http://localhost:3000')
-})
-server.on('error', function(error) {
-  console.log(error)
-})
+function main() {
+  app.set('port', 3000)
+  const server = http.createServer(app)
+
+  server.listen(3000)
+  server.on('listening', function() {
+    console.log(
+      chalk.green('[api] Server running on port http://localhost:3000')
+    )
+  })
+  server.on('error', function(error) {
+    console.log(error)
+  })
+}
+
+;(async function() {
+  try {
+    await conn.authenticate()
+    console.log(chalk.green('[database] Database connected successfully'))
+    main()
+  } catch (err) {
+    console.log(
+      chalk.green('[database] Unable to connect to the database', err)
+    )
+  }
+})()

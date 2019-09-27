@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const helmet = require('helmet')
+const movies = require('./scrape/movies.json')
 
 const app = express()
 
@@ -13,7 +14,7 @@ app.get('/', (req, res) => {
     status: 200,
     message: 'Ok',
     data: {
-      greeting: 'Hello World!'
+      movies
     }
   })
 })
