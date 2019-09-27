@@ -1,9 +1,7 @@
 const http = require('http')
 const chalk = require('chalk')
 const app = require('./src/app')
-const database = require('./src/lib/database')
-
-const { conn } = database()
+const { conn } = require('./src/lib/database')
 
 function main() {
   app.set('port', 3000)
@@ -23,6 +21,7 @@ function main() {
 ;(async function() {
   try {
     await conn.authenticate()
+    await conn.sync()
     console.log(chalk.green('[database] Database connected successfully'))
     main()
   } catch (err) {

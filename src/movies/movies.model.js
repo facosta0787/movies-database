@@ -1,12 +1,36 @@
-const database = require('../lib/database')
+const uuid = require('uuid/v4')
 
-const { sequelize } = database()
+module.exports = (sequelize, DataTypes) => {
+  const Movie = sequelize.define(
+    'movie',
+    {
+      id: {
+        type: DataTypes.UUID,
+        primaryKey: true,
+        allowNull: false,
+        defaultValue: uuid()
+      },
+      title: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      synopsis: {
+        type: DataTypes.STRING
+      },
+      year: {
+        type: DataTypes.INTEGER
+      },
+      genres: {
+        type: DataTypes.STRING
+      },
+      posterUrl: {
+        type: DataTypes.STRING
+      }
+    },
+    {
+      timestamps: true
+    }
+  )
 
-const Movie = sequelize.define('movie', {
-  id: {
-    type: sequelize.UUID,
-    primaryKey: true
-  }
-})
-
-module.exports = Movie
+  return Movie
+}
