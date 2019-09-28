@@ -1,22 +1,19 @@
 const db = require('./index')
-const { movies: scrapedMovies } = require('../../scrape/movies.json')
+const { movies: scraped } = require('../../scrape/movies.json')
 
-async function seed() {
-  const { Movie } = db
+function seed() {
+  const { Movies } = db
 
   try {
-    scrapedMovies.forEach(async movie => {
-      Movie.create({
-        id: movie.id,
-        title: movie.title,
-        synopsis: movie.synopsis,
-        year: movie.year,
-        genres: movie.genres.join(', '),
-        posterUrl: movie.posterUrl
-      }).then(result => {
-        console.log(result.movie)
-      })
+    console.log('Seeding movies data ...', scraped.length, 'Movies')
+
+    Movies.bulkCreate(scraped, {
+      ignoreDuplicates: true
     })
+      .then(() => {
+        return Movies.findAll({ raw: true })
+      })
+      .then(movies => console.log(movies))
   } catch (err) {
     console.error(err)
   }

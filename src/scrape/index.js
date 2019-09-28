@@ -8,13 +8,7 @@ const uuid = require('uuid/v4')
 function database() {
   const adapter = new FileSync(path.join(__dirname, 'movies.json'))
   const db = low(adapter)
-
-  // const movies = require('./movies.json')
-  // if (Object.keys(movies).length === 0) {
   //   db.defaults({ movies: [] }).write()
-  //   console.log('movies db created !')
-  // }
-
   const exists = (key, value) => {
     const found = db
       .get('movies')
@@ -29,31 +23,43 @@ function database() {
   return { db, exists }
 }
 
-async function scrapPage(page) {
-  try {
-    const { db, exists } = database()
+const { db, exists } = database()
 
+async function getPageContent(page) {
+  try {
     const $ = await request({
       uri: `https://cuevana2espanol.com/ver-pelicula-online/page/${page}/`,
       transform: cheerio.load
     })
+    return $
+  } catch (err) {
+    console.error(err)
+    return process.exit(1)
+  }
+}
 
+function scrapPage($) {
+  try {
     $('article.item.movies').each(function() {
       const title = $(this)
         .find('h4')
         .text()
+
       const year = $(this)
         .find('.data > span')
         .text()
+
       const synopsis = $(this)
         .find('div.texto')
         .text()
+
       const genres = []
       $(this)
         .find('.mta a')
         .each(function() {
           genres.push($(this).text())
         })
+
       const posterUrl = $(this)
         .find('div.poster > img')
         .attr('src')
@@ -65,7 +71,7 @@ async function scrapPage(page) {
             title,
             synopsis,
             year,
-            genres,
+            genres: genres.join(', '),
             posterUrl
           })
           .write()
@@ -89,19 +95,29 @@ async function Main() {
       transform: cheerio.load
     })
 
-    let pages = $('div.pagination > span')
+    const pages = $('div.pagination > span')
       .first()
       .text()
       .split(' ')
       .pop()
 
-    do {
-      console.log(`Scraping page number ${pages}`)
-      scrapPage(pages)
-      pages -= 1
-    } while (pages !== 0)
+    const webDataPromises = []
+    for (let i = 1; i <= Number(pages); i += 1) {
+      webDataPromises.push(getPageContent(i))
+    }
+
+    const webDataResults = await Promise.all(webDataPromises)
+
+    webDataResults.forEach(scrapPage)
+    console.log(
+      'Process finished,',
+      db.get('movies').value().length,
+      'movies scraped'
+    )
+    process.exit(0)
   } catch (e) {
     console.log(e)
+    process.exit(1)
   }
 }
 

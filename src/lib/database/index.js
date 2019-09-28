@@ -16,7 +16,7 @@ function database() {
     sequelize: Sequelize
   }
 
-  db.Movie = db.conn.import('../../movies/movies.model.js')
+  db.Movies = db.conn.import('../../movies/movies.model.js')
 
   return db
 }
