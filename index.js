@@ -10,7 +10,7 @@ function main() {
   server.listen(3000)
   server.on('listening', function() {
     console.log(
-      chalk.green('[api] Server running on port http://localhost:3000')
+      chalk.green('[api] Server running on port http://localhost:3000/api')
     )
   })
   server.on('error', function(error) {
@@ -21,7 +21,7 @@ function main() {
 ;(async function() {
   try {
     await conn.authenticate()
-    await conn.sync()
+    await conn.sync({ force: false })
     console.log(chalk.green('[database] Database connected successfully'))
     main()
   } catch (err) {

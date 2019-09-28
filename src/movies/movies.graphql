@@ -3,6 +3,7 @@ type Movie {
   title: String
   synopsis: String
   year: Int
+  rating: String
   genres: String
   posterUrl: String
 }
@@ -14,7 +15,7 @@ input MoviesFilterInput {
 }
 
 type Query {
-  getMovie(id: String!): Movie
-  getMovies(): [Movies]
-  getMoviesByQuery(filter: MoviesFilterInput, limit: int): [Movies]
+  # getMovie(id: String!): Movie
+  getMovies: [Movie]
+  # getMoviesByQuery(filter: MoviesFilterInput, limit: int): [Movies]
 }

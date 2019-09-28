@@ -64,6 +64,11 @@ function scrapPage($) {
         .find('div.poster > img')
         .attr('src')
 
+      const rating = $(this)
+        .find('div.poster > div.rating')
+        .text()
+        .trim()
+
       if (!exists('title', title)) {
         db.get('movies')
           .push({
@@ -71,6 +76,7 @@ function scrapPage($) {
             title,
             synopsis,
             year,
+            rating,
             genres: genres.join(', '),
             posterUrl
           })
@@ -102,8 +108,12 @@ async function Main() {
       .pop()
 
     const webDataPromises = []
-    for (let i = 1; i <= Number(pages); i += 1) {
-      webDataPromises.push(getPageContent(i))
+    webDataPromises.push($)
+
+    if (Number(pages) > 1) {
+      for (let i = 2; i <= Number(pages); i += 1) {
+        webDataPromises.push(getPageContent(i))
+      }
     }
 
     const webDataResults = await Promise.all(webDataPromises)

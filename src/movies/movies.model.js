@@ -20,6 +20,9 @@ module.exports = (sequelize, DataTypes) => {
       year: {
         type: DataTypes.INTEGER
       },
+      rating: {
+        type: DataTypes.STRING
+      },
       genres: {
         type: DataTypes.STRING
       },
