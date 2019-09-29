@@ -1,6 +1,9 @@
 const path = require('path')
 const Sequelize = require('sequelize')
+const sqlite = require('sqlite3')
+const logger = require('../../utils/logger')
 
+const env = process.env.NODE_ENV
 let db = null
 
 function database() {
@@ -11,7 +14,9 @@ function database() {
   db = {
     conn: new Sequelize({
       dialect: 'sqlite',
-      storage: path.join(__dirname, 'movies.sqlite')
+      dialectModule: sqlite,
+      storage: path.join(__dirname, 'movies.sqlite'),
+      logging: env === 'production' ? false : msg => logger.info(msg)
     }),
     sequelize: Sequelize
   }
