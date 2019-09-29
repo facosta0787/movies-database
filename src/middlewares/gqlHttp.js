@@ -2,9 +2,9 @@ const path = require('path')
 const gqlHttp = require('express-graphql')
 const { makeExecutableSchema } = require('graphql-tools')
 const { importSchema } = require('graphql-import')
-const resolvers = require('../movies/movies.resolver')
+const resolvers = require('../graphql/resolvers')
 
-const gqlhttpMiddleware = gqlHttp(() => {
+const gqlhttpMiddleware = gqlHttp(req => {
   return new Promise(resolve => {
     const next = () => {
       const withGraphiQl = process.env.NODE_ENV !== 'production'
@@ -21,7 +21,9 @@ const gqlhttpMiddleware = gqlHttp(() => {
       resolve({
         schema,
         graphiql: withGraphiQl,
-        context: {}
+        context: {
+          req
+        }
       })
     }
 
