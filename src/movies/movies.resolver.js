@@ -2,6 +2,7 @@ const controller = require('./controller')
 
 module.exports = {
   Query: {
-    getMovies: controller.getMovies
+    getMovies: controller.getMovies,
+    getMovie: controller.getMovie
   }
 }

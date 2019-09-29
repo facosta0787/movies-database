@@ -15,7 +15,7 @@ input MoviesFilterInput {
 }
 
 type Query {
-  # getMovie(id: String!): Movie
+  getMovie(id: String!): Movie
   getMovies: [Movie]
   # getMoviesByQuery(filter: MoviesFilterInput, limit: int): [Movies]
 }

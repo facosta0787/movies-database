@@ -11,6 +11,19 @@ const getMovies = async (root, args, { req }) => {
   }
 }
 
+const getMovie = async (root, args) => {
+  try {
+    const movie = await Movies.findOne({
+      where: { id: args.id }
+    })
+    return movie
+  } catch (err) {
+    console.log(err)
+    throw new Error(err.message)
+  }
+}
+
 module.exports = {
+  getMovie,
   getMovies
 }
