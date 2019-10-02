@@ -6,6 +6,7 @@ type Movie {
   rating: String
   genres: String
   posterUrl: String
+  url: String
 }
 
 input MoviesFilterInput {

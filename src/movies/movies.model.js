@@ -28,6 +28,9 @@ module.exports = (sequelize, DataTypes) => {
       },
       posterUrl: {
         type: DataTypes.STRING
+      },
+      url: {
+        type: DataTypes.STRING
       }
     },
     {

@@ -69,6 +69,10 @@ function scrapPage($) {
         .text()
         .trim()
 
+      const url = $(this)
+        .find('div.poster > a')
+        .attr('href')
+
       if (!exists('title', title)) {
         db.get('movies')
           .push({
@@ -78,7 +82,8 @@ function scrapPage($) {
             year,
             rating,
             genres: genres.join(', '),
-            posterUrl
+            posterUrl,
+            url
           })
           .write()
       } else {
