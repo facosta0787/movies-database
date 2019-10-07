@@ -9,6 +9,12 @@ type Movie {
   url: String
 }
 
+type MovieConnection {
+  cursor: String!
+  hasMore: Boolean!
+  movies: [Movie]!
+}
+
 input MoviesFilterInput {
   title: String
   synopsis: String
@@ -18,5 +24,6 @@ input MoviesFilterInput {
 type Query {
   getMovie(id: String!): Movie
   getMovies: [Movie]
+  movies(pageSize: Int, after: String): MovieConnection!
   # getMoviesByQuery(filter: MoviesFilterInput, limit: int): [Movies]
 }
