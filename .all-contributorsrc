@@ -1,0 +1,26 @@
+
+{
+  "projectName": "facebook-watchman-installer",
+  "projectOwner": "facosta0787",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "facosta0787",
+      "name": "Felipe Acosta",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17883219?v=4",
+      "profile": "http://felipeacosta.dev",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
