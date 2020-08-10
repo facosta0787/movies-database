@@ -8,12 +8,12 @@ function main() {
   const server = http.createServer(app)
 
   server.listen(3000)
-  server.on('listening', function() {
+  server.on('listening', () => {
     console.log(
       chalk.green('[api] Server running on port http://localhost:3000/api')
     )
   })
-  server.on('error', function(error) {
+  server.on('error', (error) => {
     console.log(error)
   })
 }
