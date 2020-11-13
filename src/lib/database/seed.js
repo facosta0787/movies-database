@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { conn, Movies, sequelize } = require('./index')
 const { movies: scraped } = require('../../scrape/movies.json')
 
